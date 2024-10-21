@@ -1,0 +1,88 @@
+.Film {
+    width: 600px;
+    height: 150px;
+    background-color: lightgrey;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.Color {
+    width: 600px;
+    height: 150px;
+    background-color: lightblue;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.Figuras {
+    width: 600px;
+    height: 150px;
+    background-color: lightpink;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.Film1 {
+    width: 600px;
+    height: 150px;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Color1 {
+    width: 600px;
+    height: 150px;
+    background-color: lightblue;
+    align-content: space-around;
+    display: flex; 
+    justify-content: space-around;
+}
+.Figuras1 {
+    width: 600px;
+    height: 150px;
+    background-color: lightpink;
+    align-content: space-evenly;
+    display: flex; 
+    justify-content: space-evenly;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+
+}
+
+.lista1 {
+    width: 800px;
+    height: 300px;
+    padding: 800;
+    margin: 20px;
+}
+.lista2 {
+    width: 800px;
+    height: 300px;
+    padding: 800;
+    margin: 20px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+table {
+    border-collapse:separate;
+    width:600px;
+    height: 200px;
+    padding: auto;
+}
+th, tr {
+    border: 1px solid black;
+    padding: 10px;
+
+
+}
